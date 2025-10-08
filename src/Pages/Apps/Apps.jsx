@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import useDataLoadHook from '../../hooks/useDataLoadHook';
 import AppCard from '../../Components/AppCard';
 
 const Apps = () => {
   const { apps, loading } = useDataLoadHook();
+  const [searchValue, setSearchValue] = useState('');
+
+  const searchCleanUp = searchValue.trim().toLowerCase();
+
+  const searchItem = searchCleanUp
+    ? apps.filter(appItem =>
+        appItem.title.toLowerCase().includes(searchCleanUp)
+      )
+    : apps;
 
   return (
     <div className="container mx-auto px-[3%] md:px-0 pt-[80px]">
@@ -17,7 +26,7 @@ const Apps = () => {
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center mb-4 gap-4">
         <h3 className="text-2xl font-semibold text-[#001931]">
-          ({apps.length}) Apps Found
+          ({searchItem.length}) Apps Found
         </h3>
         <label className="input">
           <svg
@@ -36,14 +45,21 @@ const Apps = () => {
               <path d="m21 21-4.3-4.3"></path>
             </g>
           </svg>
-          <input type="search" required placeholder="Search" />
+          <input
+            onChange={e => setSearchValue(e.target.value)}
+            defaultValue={searchValue}
+            type="search"
+            required
+            placeholder="Search"
+          />
         </label>
       </div>
       {loading ? (
         'loading .......................'
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
-          {apps && apps.map(app => <AppCard key={app.id} app={app}></AppCard>)}
+          {searchItem &&
+            searchItem.map(app => <AppCard key={app.id} app={app}></AppCard>)}
         </div>
       )}
     </div>
