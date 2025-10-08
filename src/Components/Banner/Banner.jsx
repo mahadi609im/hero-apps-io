@@ -39,7 +39,7 @@ const Banner = () => {
             </a>
           </div>
         </div>
-        <div className="max-w-2/3 md:max-w-1/2 w-full mx-auto h-auto mt-[40px]">
+        <div className="md:max-w-1/2 w-full mx-auto h-auto mt-[40px]">
           <img className="w-full h-full" src={hero} alt="" />
         </div>
       </div>

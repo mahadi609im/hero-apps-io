@@ -8,7 +8,7 @@ const InstallList = ({ install }) => {
   const handleUnInstall = useContext(UninstallContext);
 
   return (
-    <div className="p-4 rounded-sm bg-white mb-4 flex justify-between items-center">
+    <div className="p-4 rounded-sm bg-white mb-4 flex flex-col md:flex-row justify-between items-center gap-4">
       <div className="flex gap-4 items-center">
         <div className="w-[80px] h-[80px] rounded-lg bg-[#D9D9D9]  flex justify-center items-center">
           <img
@@ -36,7 +36,7 @@ const InstallList = ({ install }) => {
       </div>
       <button
         onClick={() => handleUnInstall(id)}
-        className="px-5 py-[12px] bg-[#00D390] text-white rounded-sm cursor-pointer"
+        className="px-5 py-[12px] bg-[#00D390] text-white rounded-sm cursor-pointer shadow-md"
       >
         Uninstall
       </button>

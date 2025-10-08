@@ -231,8 +231,8 @@
   {
     "image": "https://img.icons8.com/color/480/google-files.png",
     "title": "File Manager: Smart Storage Organizer",
-    "appName": "Google LLC",
-    "companyName": "Xiaomi Inc.",
+    "appName": "File Manager",
+    "companyName": "Google LLC.",
     "id": 13,
     "description": "File Manager helps you organize, manage, and clean your device storage efficiently. It provides a clear view of your files, categorizing them by type such as images, videos, documents, and apps. With fast search, file compression, and one-tap cleanup, it simplifies managing both local and cloud storage. You can easily share files, rename folders, and analyze space usage with detailed insights. Designed for speed and simplicity, File Manager makes your digital life clutter-free and organized.",
     "size": 40,

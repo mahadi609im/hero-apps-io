@@ -63,7 +63,7 @@ const Installation = () => {
     setInstalled(newInstallItem);
     const unInstallItem = installed.filter(app => app.id === id);
     toast.success(
-      `${unInstallItem.map(el => el.appName)} Unstall Successfully`,
+      `${unInstallItem.map(el => el.appName)} UnInstall Successfully`,
       {
         position: 'top-right',
         autoClose: 5000,
@@ -95,6 +95,7 @@ const Installation = () => {
         <div className="relative inline-block">
           {/* Gradient Button */}
           <button
+            disabled={installed.length === 0 && true}
             onClick={() => {
               setOpen(!open);
             }}
@@ -167,7 +168,7 @@ const Installation = () => {
 
       <div>
         {installed.map(install => (
-          <UninstallContext.Provider value={handleUninstal}>
+          <UninstallContext.Provider key={install.id} value={handleUninstal}>
             <InstallList key={install.id} install={install}></InstallList>
           </UninstallContext.Provider>
         ))}

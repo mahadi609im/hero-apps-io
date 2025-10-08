@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router';
 import Navbar from '../Components/Navbar/Navbar';
 import { Bounce, ToastContainer } from 'react-toastify';
+import Footer from '../Components/Footer/Footer';
 
 const RootLayout = () => {
   return (
@@ -10,7 +11,7 @@ const RootLayout = () => {
       <div className="flex-1 pb-[80px] bg-[#f5f5f5]">
         <Outlet></Outlet>
       </div>
-      <div>Footer</div>
+      <Footer></Footer>
       <ToastContainer
         position="top-right"
         autoClose={5000}
