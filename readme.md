@@ -11,8 +11,8 @@
 # 🐣 Basic Requirements
 
 - Make the Application Responsive for All the Devices
-- Do minimum 5 commits to your github Repository
-- Give a meaning full name to your application
+- Do minimum 5 commits to your github Repository - **---Done---**
+- Give a meaning full name to your application - **---Done---**
 - Make Sure on Production Application is error Free
 - Add a Readme.md with App Name , Description & Technologies
 
@@ -38,7 +38,7 @@
 #### Data
 
 - Create an JSON Array of minimum 12-20 objects for app data using the following
-  structure:
+  structure: - **---Image---**
   ```js
   {
     image: string;
@@ -66,9 +66,9 @@
 
 #### Banner
 
-- Must contain a center-aligned heading, text, and two buttons.
-- “App Store” button will redirect to the App Store.
-- “Play Store” button will redirect to the Play Store.
+- Must contain a center-aligned heading, text, and two buttons. - **---Done---**
+- “App Store” button will redirect to the App Store. - **---Done---**
+- “Play Store” button will redirect to the Play Store. - **---Done---**
 
 #### States Section
 
@@ -77,14 +77,15 @@
 
 #### Top Apps Section
 
-- Display eight apps in a four-column layout.
-- Each app card should display:
+- Display eight apps in a four-column layout. - **---Done---**
+- Each app card should display: - **---Done---**
   - App title
   - Image
   - Download count
   - Average rating
 - Clicking on a card should navigate the user to the App Details page.
-- Include a “Show All” button that navigates to the All Apps page.
+- Include a “Show All” button that navigates to the All Apps page. -
+  **---Done---**
 
 ---
 
@@ -92,14 +93,15 @@
 
 #### Title Section
 
-- Include a title and subtitle following the Figma design.
+- Include a title and subtitle following the Figma design. - **---Done---**
 
 #### Search and States
 
-- Display the total number of apps on the left and a search bar on the right.
-- `Implement live search functionality`
-  - filters apps by title as the user types.
-  - Search will be case-insensitive
+- Display the total number of apps on the left and a search bar on the right. -
+  **---Done---**
+- `Implement live search functionality` - **---Done---**
+  - filters apps by title as the user types. - **---Done---**
+  - Search will be case-insensitive - **---Done---**
   - If no app matches, display a “No App Found” message.
 
 #### App Section

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import useDataLoadHook from '../../hooks/useDataLoadHook';
 import AppCard from '../../Components/AppCard';
+import EmptyState from '../../Components/EmptyState';
 
 const Apps = () => {
   const { apps, loading } = useDataLoadHook();
@@ -55,9 +56,16 @@ const Apps = () => {
       {loading ? (
         'loading .......................'
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
-          {searchItem &&
-            searchItem.map(app => <AppCard key={app.id} app={app}></AppCard>)}
+        <div>
+          {searchItem.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+              {searchItem.map(app => (
+                <AppCard key={app.id} app={app}></AppCard>
+              ))}
+            </div>
+          ) : (
+            <EmptyState></EmptyState>
+          )}
         </div>
       )}
     </div>
