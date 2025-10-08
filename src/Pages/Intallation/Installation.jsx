@@ -1,5 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { getInstalledData } from '../../utility/InstalledStore';
+import React, { createContext, useEffect, useState } from 'react';
+import {
+  getInstalledData,
+  removeInstalledItem,
+} from '../../utility/InstalledStore';
 import { HiSortDescending } from 'react-icons/hi';
 import useDataLoadHook from '../../hooks/useDataLoadHook';
 import InstallList from './InstallList';
@@ -8,6 +11,8 @@ import {
   TbSortDescendingNumbers,
 } from 'react-icons/tb';
 import { MdDownload } from 'react-icons/md';
+
+const UninstallContext = createContext('');
 
 const Installation = () => {
   const [installed, setInstalled] = useState([]);
@@ -50,6 +55,12 @@ const Installation = () => {
       let sortInstalled = [...installed].sort((x, y) => y.size - x.size);
       setInstalled(sortInstalled);
     }
+  };
+
+  const handleUninstal = id => {
+    removeInstalledItem(id);
+    const newInstallItem = installed.filter(app => app.id !== id);
+    setInstalled(newInstallItem);
   };
 
   return (
@@ -141,7 +152,9 @@ const Installation = () => {
 
       <div>
         {installed.map(install => (
-          <InstallList key={install.id} install={install}></InstallList>
+          <UninstallContext.Provider value={handleUninstal}>
+            <InstallList key={install.id} install={install}></InstallList>
+          </UninstallContext.Provider>
         ))}
       </div>
     </div>
@@ -149,3 +162,4 @@ const Installation = () => {
 };
 
 export default Installation;
+export { UninstallContext };

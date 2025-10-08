@@ -26,7 +26,6 @@ const AppsDetails = () => {
 
   const handleInstalled = id => {
     setInstalledData(id);
-    console.log(id);
   };
 
   return (

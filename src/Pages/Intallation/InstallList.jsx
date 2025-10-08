@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import iconDownloads from '../../assets/icon-downloads.png';
 import iconRatings from '../../assets/icon-ratings.png';
+import { UninstallContext } from './Installation';
 
 const InstallList = ({ install }) => {
-  const { title, ratingAvg, downloads, size } = install;
+  const { id, title, ratingAvg, downloads, size } = install;
+  const handleUnInstall = useContext(UninstallContext);
 
   return (
     <div className="p-4 rounded-sm bg-white mb-4 flex justify-between items-center">
@@ -26,7 +28,10 @@ const InstallList = ({ install }) => {
           </div>
         </div>
       </div>
-      <button className="px-5 py-[12px] bg-[#00D390] text-white rounded-sm cursor-pointer">
+      <button
+        onClick={() => handleUnInstall(id)}
+        className="px-5 py-[12px] bg-[#00D390] text-white rounded-sm cursor-pointer"
+      >
         Uninstall
       </button>
     </div>

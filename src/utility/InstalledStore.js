@@ -20,4 +20,12 @@ const setInstalledData = id => {
   }
 };
 
-export { setInstalledData, getInstalledData };
+const removeInstalledItem = id => {
+  let installedData = getInstalledData();
+
+  let removeItem = installedData.filter(data => data !== id);
+  let installedDataStr = JSON.stringify(removeItem);
+  localStorage.setItem('installed', installedDataStr);
+};
+
+export { setInstalledData, getInstalledData, removeInstalledItem };
