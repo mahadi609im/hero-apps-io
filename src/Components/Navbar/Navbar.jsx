@@ -1,13 +1,11 @@
 import React from 'react';
-import { Link, NavLink, useNavigate } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import logo from '../../assets/logo.png';
 import { FaGithub } from 'react-icons/fa';
 
 const Navbar = () => {
-  const navigate = useNavigate('');
-
   return (
-    <nav className=" w-full f py-4">
+    <nav className=" w-full f py-4 shadow">
       <div className="navbar flex justify-between items-center container mx-auto px-[3%] md:px-0">
         <div className="flex items-center">
           <div className="dropdown">
@@ -90,6 +88,7 @@ const Navbar = () => {
         </div>
         <div className="flex gap-4">
           <a
+            target="_blank"
             href="https://github.com/mahadi609im"
             className="py-[11.5px] px-[15.5px] rounded-md md:rounded-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] p-6 shadow-lg text-white text-base font-semibold cursor-pointer flex items-center gap-[10px]"
           >
