@@ -1,10 +1,13 @@
-import React from 'react';
 import useDataLoadHook from '../../hooks/useDataLoadHook';
 import { useParams } from 'react-router';
 import iconDownloads from '../../assets/icon-downloads.png';
 import iconRatings from '../../assets/icon-ratings.png';
 import iconReview from '../../assets/icon-review.png';
-import { setInstalledData } from '../../utility/InstalledStore';
+import {
+  getInstalledData,
+  setInstalledData,
+} from '../../utility/InstalledStore';
+import { useEffect, useState } from 'react';
 
 const AppsDetails = () => {
   const { apps } = useDataLoadHook();
@@ -24,8 +27,19 @@ const AppsDetails = () => {
     size,
   } = appsDetailsData || {};
 
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  useEffect(() => {
+    const installedStoredApps = getInstalledData();
+
+    if (installedStoredApps.includes(id)) {
+      setIsInstalled(true);
+    }
+  }, [id]);
+
   const handleInstalled = id => {
     setInstalledData(id);
+    setIsInstalled(true);
   };
 
   return (
@@ -74,9 +88,14 @@ const AppsDetails = () => {
           </div>
           <button
             onClick={() => handleInstalled(id)}
-            className="px-5 py-[12px] bg-[#00D390] text-white rounded-sm mt-[30px] cursor-pointer"
+            disabled={isInstalled}
+            className={`px-5 py-[12px] rounded-sm mt-[30px] text-white font-medium transition-all ${
+              isInstalled
+                ? 'bg-green-300 cursor-not-allowed'
+                : 'bg-[#00D390] hover:bg-[#00b377] cursor-pointer'
+            }`}
           >
-            Install Now ({size} MB)
+            {isInstalled ? 'Installed' : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>

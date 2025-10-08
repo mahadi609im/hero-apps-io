@@ -16,7 +16,7 @@ const UninstallContext = createContext('');
 
 const Installation = () => {
   const [installed, setInstalled] = useState([]);
-  const { apps } = useDataLoadHook();
+  const { apps, loading } = useDataLoadHook();
 
   useEffect(() => {
     let InstalledStoreData = getInstalledData();
