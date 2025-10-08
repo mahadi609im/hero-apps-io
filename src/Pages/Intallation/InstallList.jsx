@@ -4,13 +4,19 @@ import iconRatings from '../../assets/icon-ratings.png';
 import { UninstallContext } from './Installation';
 
 const InstallList = ({ install }) => {
-  const { id, title, appName, ratingAvg, downloads, size } = install;
+  const { id, title, image, ratingAvg, downloads, size } = install;
   const handleUnInstall = useContext(UninstallContext);
 
   return (
     <div className="p-4 rounded-sm bg-white mb-4 flex justify-between items-center">
       <div className="flex gap-4 items-center">
-        <div className="w-[80px] h-[80px] rounded-lg bg-[#D9D9D9]"></div>
+        <div className="w-[80px] h-[80px] rounded-lg bg-[#D9D9D9]  flex justify-center items-center">
+          <img
+            className="max-w-4/5 w-full h-auto object-contain"
+            src={image}
+            alt=""
+          />
+        </div>
         <div className="space-y-4">
           <h4 className="text-xl font-medium text-[#001931]">{title}</h4>
           <div className="flex gap-4">

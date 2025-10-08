@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://example.com/icons/whatsapp.png",
+    "image": "https://img.icons8.com/color/480/whatsapp--v1.png",
     "title": "WhatsApp: Messaging & Calls",
     "appName": "WhatsApp",
     "companyName": "Meta Platforms, Inc.",
@@ -19,45 +19,46 @@
     ]
   },
   {
-    "image": "https://example.com/icons/instagram.png",
-    "title": "Instagram: Photo & Video",
-    "appName": "Instagram",
+    "image": "https://img.icons8.com/color/480/facebook-messenger--v1.png",
+    "title": "Messenger: Chat & Connect",
+    "appName": "Messenger",
     "companyName": "Meta Platforms, Inc.",
     "id": 2,
-    "description": "Instagram helps you capture and share life’s moments visually. You can post photos, reels, and stories, explore trending content, and connect with your favorite creators and communities. The app offers powerful creative tools like filters, editing options, and music integration for every post. With messaging, shopping, and discovery features, Instagram is not just a photo app — it’s your digital lifestyle space where creativity, community, and inspiration come together.",
-    "size": 52,
-    "reviews": 87,
-    "ratingAvg": 4.5,
-    "downloads": 4,
+    "description": "Messenger makes communication fast, simple, and personal. You can send instant text messages, voice notes, photos, and videos to your friends and family. With features like group chats, video calls, and reactions, Messenger helps you stay connected anytime, anywhere. You can also connect with businesses, play games, or send money securely — all within the app. Whether for casual talks or serious conversations, Messenger keeps every moment alive and connected.",
+    "size": 48,
+    "reviews": 95,
+    "ratingAvg": 4.4,
+    "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 4500 },
-      { "name": "2 star", "count": 12000 },
-      { "name": "3 star", "count": 25000 },
-      { "name": "4 star", "count": 30000 },
-      { "name": "5 star", "count": 63000 }
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 8500 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 52000 }
     ]
   },
+
   {
-    "image": "https://example.com/icons/tiktok.png",
-    "title": "TikTok: Short Videos",
-    "appName": "TikTok",
-    "companyName": "ByteDance Ltd.",
+    "image": "https://img.icons8.com/color/480/google-drive--v2.png",
+    "title": "Google Drive: Cloud Storage & File Sharing",
+    "appName": "Google Drive",
+    "companyName": "Google LLC",
     "id": 3,
-    "description": "TikTok is the leading destination for short-form mobile video, inspiring creativity and bringing joy to millions of users. You can create engaging videos with trending sounds, visual effects, and filters. Whether you’re dancing, cooking, or storytelling, TikTok’s algorithm curates a personalized feed of content you’ll love. The app’s simplicity makes it easy to express yourself and connect with a global audience that shares your passions and humor.",
-    "size": 70,
-    "reviews": 82,
-    "ratingAvg": 4.3,
-    "downloads": 4,
+    "description": "Google Drive gives you secure access to all your files from any device. Store photos, documents, videos, and backups safely in the cloud, and share them instantly with anyone. Collaborate in real time on Google Docs, Sheets, and Slides directly from Drive. With powerful search powered by Google AI and seamless integration with other Workspace apps, Google Drive is your reliable hub for productivity and storage — anywhere, anytime.",
+    "size": 115,
+    "reviews": 190,
+    "ratingAvg": 4.7,
+    "downloads": 5.9,
     "ratings": [
-      { "name": "1 star", "count": 6000 },
-      { "name": "2 star", "count": 9000 },
-      { "name": "3 star", "count": 22000 },
-      { "name": "4 star", "count": 31000 },
-      { "name": "5 star", "count": 61800 }
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 4900 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 33000 }
     ]
   },
   {
-    "image": "https://example.com/icons/spotify.png",
+    "image": "https://img.icons8.com/color/480/spotify--v1.png",
     "title": "Spotify: Music Streaming",
     "appName": "Spotify",
     "companyName": "Spotify Ltd.",
@@ -76,7 +77,7 @@
     ]
   },
   {
-    "image": "https://example.com/icons/youtube.png",
+    "image": "https://img.icons8.com/color/480/youtube-play.png",
     "title": "YouTube: Video Sharing",
     "appName": "YouTube",
     "companyName": "Google LLC",
@@ -95,7 +96,7 @@
     ]
   },
   {
-    "image": "https://example.com/icons/snapchat.png",
+    "image": "https://img.icons8.com/3d-sugary/500/snapchat.png",
     "title": "Snapchat: Multimedia Messaging",
     "appName": "Snapchat",
     "companyName": "Snap Inc.",
@@ -114,7 +115,7 @@
     ]
   },
   {
-    "image": "https://example.com/icons/slack.png",
+    "image": "https://img.icons8.com/ios-filled/500/slack.png",
     "title": "Slack: Team Collaboration",
     "appName": "Slack",
     "companyName": "Slack Technologies",
@@ -133,7 +134,7 @@
     ]
   },
   {
-    "image": "https://example.com/icons/zoom.png",
+    "image": "https://img.icons8.com/color/480/zoom.png",
     "title": "Zoom: Video Meetings",
     "appName": "Zoom",
     "companyName": "Zoom Video Communications",
@@ -152,7 +153,7 @@
     ]
   },
   {
-    "image": "https://example.com/icons/telegram.png",
+    "image": "https://img.icons8.com/color/480/telegram-app--v1.png",
     "title": "Telegram: Secure Messaging",
     "appName": "Telegram",
     "companyName": "Telegram Messenger LLP",
@@ -171,7 +172,7 @@
     ]
   },
   {
-    "image": "https://example.com/icons/facebook.png",
+    "image": "https://img.icons8.com/color/480/facebook-new.png",
     "title": "Facebook: Social Networking",
     "appName": "Facebook",
     "companyName": "Meta Platforms, Inc.",
@@ -190,64 +191,65 @@
     ]
   },
   {
-    "image": "https://example.com/icons/instagram.png",
-    "title": "Instagram: Capture & Share Moments",
-    "appName": "Instagram",
-    "companyName": "Meta Platforms, Inc.",
+    "image": "https://img.icons8.com/color/480/notion--v1.png",
+    "title": "Notion: All-in-One Workspace",
+    "appName": "Notion",
+    "companyName": "Notion Labs, Inc.",
     "id": 11,
-    "description": "Instagram brings creativity and connection together in one place. Capture photos and videos, enhance them with filters, and share your story with the world. From Reels to Stories, Instagram helps creators, influencers, and businesses grow their audiences and build authentic engagement. Explore trending content, message friends, or shop from your favorite brands — everything is beautifully integrated to keep your world visually alive.",
-    "size": 70,
-    "reviews": 88,
-    "ratingAvg": 5.0,
+    "description": "Notion is your all-in-one workspace for notes, tasks, databases, and collaboration. Organize your personal and team projects in one place with powerful tools for writing, planning, and tracking progress. From creating simple to-do lists to building complex databases, Notion adapts to your workflow and enhances productivity for individuals and teams alike.",
+    "size": 80,
+    "reviews": 75,
+    "ratingAvg": 4.4,
+    "downloads": 4.5,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/480/gemini-ai.png",
+    "title": "Gemini: AI Chat & Assistance",
+    "appName": "Gemini",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "Gemini is Google’s next-generation AI assistant designed to help you think, create, and explore. It combines advanced reasoning with a friendly conversational interface, letting you ask questions, brainstorm ideas, write content, or generate code instantly. Gemini integrates with Google Workspace, helping you summarize emails, draft documents, and plan schedules efficiently. Whether you’re learning, working, or just exploring ideas, Gemini offers intelligent assistance with a natural touch of creativity and context.",
+    "size": 110,
+    "reviews": 98,
+    "ratingAvg": 4.7,
+    "downloads": 6.2,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3800 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 16000 },
+      { "name": "5 star", "count": 32000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/480/google-files.png",
+    "title": "File Manager: Smart Storage Organizer",
+    "appName": "Google LLC",
+    "companyName": "Xiaomi Inc.",
+    "id": 13,
+    "description": "File Manager helps you organize, manage, and clean your device storage efficiently. It provides a clear view of your files, categorizing them by type such as images, videos, documents, and apps. With fast search, file compression, and one-tap cleanup, it simplifies managing both local and cloud storage. You can easily share files, rename folders, and analyze space usage with detailed insights. Designed for speed and simplicity, File Manager makes your digital life clutter-free and organized.",
+    "size": 40,
+    "reviews": 65,
+    "ratingAvg": 4.4,
     "downloads": 4.8,
     "ratings": [
-      { "name": "1 star", "count": 2700 },
-      { "name": "2 star", "count": 3400 },
-      { "name": "3 star", "count": 5000 },
-      { "name": "4 star", "count": 12000 },
-      { "name": "5 star", "count": 25000 }
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 9700 },
+      { "name": "5 star", "count": 19500 }
     ]
   },
+
   {
-    "image": "https://example.com/icons/tiktok.png",
-    "title": "TikTok: Short Video Platform",
-    "appName": "TikTok",
-    "companyName": "ByteDance Ltd.",
-    "id": 12,
-    "description": "TikTok transforms creativity into a global conversation through short videos. Express yourself through music, trends, and visual storytelling with tools like filters, effects, and sounds. Whether you're a dancer, artist, or meme maker, TikTok’s algorithm curates content that keeps you inspired. The app connects millions of creators worldwide, fostering new forms of entertainment, humor, and self-expression every day.",
-    "size": 90,
-    "reviews": 120,
-    "ratingAvg": 4.6,
-    "downloads": 5.5,
-    "ratings": [
-      { "name": "1 star", "count": 3500 },
-      { "name": "2 star", "count": 4200 },
-      { "name": "3 star", "count": 6000 },
-      { "name": "4 star", "count": 14000 },
-      { "name": "5 star", "count": 28000 }
-    ]
-  },
-  {
-    "image": "https://example.com/icons/snapchat.png",
-    "title": "Snapchat: Share the Moment",
-    "appName": "Snapchat",
-    "companyName": "Snap Inc.",
-    "id": 13,
-    "description": "Snapchat redefines communication with disappearing messages, AR lenses, and instant photo sharing. It’s designed for quick, authentic connections — send a snap, create stories, or chat in real-time with friends. With features like Snap Map and Bitmoji, users can explore the world and express themselves creatively. It’s not just a camera app; it’s a vibrant social space built around fun and spontaneity.",
-    "size": 65,
-    "reviews": 77,
-    "ratingAvg": 4.2,
-    "downloads": 3.9,
-    "ratings": [
-      { "name": "1 star", "count": 2300 },
-      { "name": "2 star", "count": 3200 },
-      { "name": "3 star", "count": 4700 },
-      { "name": "4 star", "count": 9500 },
-      { "name": "5 star", "count": 21000 }
-    ]
-  },
-  {
-    "image": "https://example.com/icons/linkedin.png",
+    "image": "https://img.icons8.com/color/480/linkedin.png",
     "title": "LinkedIn: Professional Network",
     "appName": "LinkedIn",
     "companyName": "LinkedIn Corporation",
@@ -266,45 +268,46 @@
     ]
   },
   {
-    "image": "https://example.com/icons/spotify.png",
-    "title": "Spotify: Music and Podcasts",
-    "appName": "Spotify",
-    "companyName": "Spotify AB",
+    "image": "https://img.icons8.com/color/480/gmail-new.png",
+    "title": "Gmail: Secure Email & Communication",
+    "appName": "Gmail",
+    "companyName": "Google LLC",
     "id": 15,
-    "description": "Spotify lets you listen to millions of songs, albums, and podcasts on demand. Create playlists, follow artists, and explore personalized mixes built around your mood. With offline downloads, smart recommendations, and collaborative playlists, Spotify makes discovering new music effortless. It’s your personal soundtrack — anytime, anywhere.",
-    "size": 95,
-    "reviews": 150,
-    "ratingAvg": 3.7,
-    "downloads": 5.3,
-    "ratings": [
-      { "name": "1 star", "count": 3200 },
-      { "name": "2 star", "count": 4100 },
-      { "name": "3 star", "count": 5500 },
-      { "name": "4 star", "count": 13000 },
-      { "name": "5 star", "count": 30000 }
-    ]
-  },
-  {
-    "image": "https://example.com/icons/netflix.png",
-    "title": "Netflix: Stream TV & Movies",
-    "appName": "Netflix",
-    "companyName": "Netflix, Inc.",
-    "id": 16,
-    "description": "Netflix brings the world’s best entertainment right to your screen. Stream exclusive TV shows, movies, and documentaries from any device. With personalized recommendations, multiple profiles, and offline viewing, Netflix adapts to your tastes. From Hollywood blockbusters to original content, it’s your one-stop destination for unlimited storytelling.",
-    "size": 120,
-    "reviews": 180,
+    "description": "Gmail is the world’s most trusted email service, helping you send, receive, and organize messages easily. With powerful spam protection, smart categorization, and instant search, managing communication is effortless. It integrates seamlessly with Google Workspace tools like Drive, Meet, and Calendar, keeping your work and personal messages in sync. You can schedule emails, use labels, and enjoy a clutter-free inbox powered by AI that prioritizes what matters most. Stay connected, productive, and secure with Gmail — anywhere, anytime.",
+    "size": 60,
+    "reviews": 140,
     "ratingAvg": 4.8,
-    "downloads": 5.6,
+    "downloads": 5.9,
     "ratings": [
-      { "name": "1 star", "count": 2800 },
-      { "name": "2 star", "count": 3400 },
-      { "name": "3 star", "count": 5200 },
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 5000 },
       { "name": "4 star", "count": 12500 },
       { "name": "5 star", "count": 31000 }
     ]
   },
+
   {
-    "image": "https://example.com/icons/twitter.png",
+    "image": "https://img.icons8.com/color/480/google-meet--v1.png",
+    "title": "Google Meet: Video Meetings & Collaboration",
+    "appName": "Google Meet",
+    "companyName": "Google LLC",
+    "id": 16,
+    "description": "Google Meet makes online meetings simple, secure, and seamless. Host or join HD video calls directly from your browser or mobile device. With features like screen sharing, real-time captions, breakout rooms, and noise cancellation, collaboration feels natural and professional. Whether for work, school, or family, Meet keeps everyone connected — anytime, anywhere, with enterprise-grade security powered by Google.",
+    "size": 85,
+    "reviews": 165,
+    "ratingAvg": 4.6,
+    "downloads": 4.8,
+    "ratings": [
+      { "name": "1 star", "count": 2400 },
+      { "name": "2 star", "count": 3100 },
+      { "name": "3 star", "count": 4700 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 29500 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/480/twitter-circled--v1.png",
     "title": "Twitter: Real-Time News & Trends",
     "appName": "Twitter",
     "companyName": "X Corp.",
@@ -323,7 +326,7 @@
     ]
   },
   {
-    "image": "https://example.com/icons/pinterest.png",
+    "image": "https://img.icons8.com/color/480/pinterest--v1.png",
     "title": "Pinterest: Discover Ideas",
     "appName": "Pinterest",
     "companyName": "Pinterest, Inc.",
@@ -342,7 +345,7 @@
     ]
   },
   {
-    "image": "https://example.com/icons/reddit.png",
+    "image": "https://img.icons8.com/ios-filled/500/reddit--v1.png",
     "title": "Reddit: Dive into Anything",
     "appName": "Reddit",
     "companyName": "Reddit Inc.",
@@ -361,7 +364,7 @@
     ]
   },
   {
-    "image": "https://example.com/icons/discord.png",
+    "image": "https://img.icons8.com/color/480/discord-logo.png",
     "title": "Discord: Chat & Communities",
     "appName": "Discord",
     "companyName": "Discord Inc.",

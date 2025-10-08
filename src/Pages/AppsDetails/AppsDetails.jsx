@@ -21,6 +21,7 @@ const AppsDetails = () => {
     id,
     title,
     appName,
+    image,
     companyName,
     downloads,
     ratingAvg,
@@ -58,7 +59,9 @@ const AppsDetails = () => {
   return (
     <div className="container mx-auto px-[3%] md:px-0 mt-[80px] ">
       <div className="flex gap-[40px]">
-        <div className="w-[350px] h-[350px] bg-[#D9D9D9] rounded-sm"></div>
+        <div className="w-[350px] h-[350px] bg-white rounded-sm">
+          <img className="w-full h-auto object-cover" src={image} alt="" />
+        </div>
         <div className="w-full">
           <div>
             <h2 className="text-[#001931] font-bold text-[26px] md:text-[32px]">

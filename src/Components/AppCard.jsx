@@ -4,7 +4,7 @@ import iconRatings from '../assets/icon-ratings.png';
 import { useNavigate } from 'react-router';
 
 const AppCard = ({ app }) => {
-  const { id, title, ratingAvg, downloads } = app;
+  const { id, image, title, ratingAvg, downloads } = app;
 
   const navigate = useNavigate('');
 
@@ -13,7 +13,13 @@ const AppCard = ({ app }) => {
       onClick={() => navigate(`/appsDetails/${id}`)}
       className="w-full p-4 rounded-sm bg-white space-y-4 shadow-lg cursor-pointer"
     >
-      <div className="w-full h-[316px] bg-[#D9D9D9] rounded-lg"></div>
+      <div className=" w-full h-[316px] bg-[#D9D9D9] rounded-lg flex justify-center items-center">
+        <img
+          className="max-w-4/5 w-full h-auto object-contain"
+          src={image}
+          alt=""
+        />
+      </div>
       <div className="flex flex-col justify-between h-[110px]">
         <h4 className="text-xl font-medium text-[#001931]">{title}</h4>
         <div className="flex justify-between items-center">
