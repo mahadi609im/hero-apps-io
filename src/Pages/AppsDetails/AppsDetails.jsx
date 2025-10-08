@@ -8,6 +8,7 @@ import {
   setInstalledData,
 } from '../../utility/InstalledStore';
 import { useEffect, useState } from 'react';
+import { Bounce, toast } from 'react-toastify';
 
 const AppsDetails = () => {
   const { apps } = useDataLoadHook();
@@ -19,6 +20,7 @@ const AppsDetails = () => {
   const {
     id,
     title,
+    appName,
     companyName,
     downloads,
     ratingAvg,
@@ -39,6 +41,17 @@ const AppsDetails = () => {
 
   const handleInstalled = id => {
     setInstalledData(id);
+    toast.success(`${appName} Install successfully`, {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'light',
+      transition: Bounce,
+    });
     setIsInstalled(true);
   };
 
@@ -52,7 +65,7 @@ const AppsDetails = () => {
               {title}
             </h2>
             <p className="text-[#627382] font-normal text-base md:text-xl">
-              Developed by
+              Developed by{' '}
               <span className="font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
                 {companyName}
               </span>

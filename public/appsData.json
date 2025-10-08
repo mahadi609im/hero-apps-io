@@ -2,6 +2,7 @@
   {
     "image": "https://example.com/icons/whatsapp.png",
     "title": "WhatsApp: Messaging & Calls",
+    "appName": "WhatsApp",
     "companyName": "Meta Platforms, Inc.",
     "id": 1,
     "description": "WhatsApp Messenger connects you instantly with friends and family through fast, secure, and reliable communication. It offers free text, voice, and video calling across the globe, along with features like group chats, disappearing messages, media sharing, and custom stickers. With end-to-end encryption, every message stays private, and seamless syncing keeps your chats accessible across devices. Whether you're managing a business group or sharing moments with loved ones, WhatsApp makes staying connected simple and personal.",
@@ -20,6 +21,7 @@
   {
     "image": "https://example.com/icons/instagram.png",
     "title": "Instagram: Photo & Video",
+    "appName": "Instagram",
     "companyName": "Meta Platforms, Inc.",
     "id": 2,
     "description": "Instagram helps you capture and share life’s moments visually. You can post photos, reels, and stories, explore trending content, and connect with your favorite creators and communities. The app offers powerful creative tools like filters, editing options, and music integration for every post. With messaging, shopping, and discovery features, Instagram is not just a photo app — it’s your digital lifestyle space where creativity, community, and inspiration come together.",
@@ -38,6 +40,7 @@
   {
     "image": "https://example.com/icons/tiktok.png",
     "title": "TikTok: Short Videos",
+    "appName": "TikTok",
     "companyName": "ByteDance Ltd.",
     "id": 3,
     "description": "TikTok is the leading destination for short-form mobile video, inspiring creativity and bringing joy to millions of users. You can create engaging videos with trending sounds, visual effects, and filters. Whether you’re dancing, cooking, or storytelling, TikTok’s algorithm curates a personalized feed of content you’ll love. The app’s simplicity makes it easy to express yourself and connect with a global audience that shares your passions and humor.",
@@ -56,6 +59,7 @@
   {
     "image": "https://example.com/icons/spotify.png",
     "title": "Spotify: Music Streaming",
+    "appName": "Spotify",
     "companyName": "Spotify Ltd.",
     "id": 4,
     "description": "Spotify is your ultimate music companion, giving you access to millions of songs, podcasts, and playlists from around the world. Create and share playlists, discover new artists, and enjoy personalized recommendations based on your taste. With offline listening and seamless device syncing, you can take your music anywhere. Whether you’re working out, studying, or relaxing, Spotify sets the perfect soundtrack for every moment of your day.",
@@ -74,6 +78,7 @@
   {
     "image": "https://example.com/icons/youtube.png",
     "title": "YouTube: Video Sharing",
+    "appName": "YouTube",
     "companyName": "Google LLC",
     "id": 5,
     "description": "YouTube is the world’s largest video platform where people come to watch, share, and learn. From music and gaming to tutorials and vlogs, it offers a vast collection of videos for every interest. You can subscribe to creators, stream live content, and download videos for offline viewing with YouTube Premium. The personalized home feed makes discovery effortless, while creators have all the tools they need to share their stories with the world.",
@@ -92,6 +97,7 @@
   {
     "image": "https://example.com/icons/snapchat.png",
     "title": "Snapchat: Multimedia Messaging",
+    "appName": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 6,
     "description": "Snapchat brings moments to life with disappearing messages, fun filters, and creative AR effects. You can chat with friends, send snaps, share stories, and explore new lenses daily. The app emphasizes real-time connection and privacy, allowing you to stay close to your circle without leaving a digital trace. With Snap Map and Bitmoji integration, every conversation feels spontaneous and uniquely personal.",
@@ -110,6 +116,7 @@
   {
     "image": "https://example.com/icons/slack.png",
     "title": "Slack: Team Collaboration",
+    "appName": "Slack",
     "companyName": "Slack Technologies",
     "id": 7,
     "description": "Slack transforms the way teams communicate. It combines real-time messaging, file sharing, and project organization into one streamlined workspace. You can create channels for teams, integrate tools like Google Drive or Trello, and use huddles for quick audio chats. With search, mentions, and workflow automation, Slack reduces email clutter and helps teams collaborate efficiently from anywhere in the world.",
@@ -128,6 +135,7 @@
   {
     "image": "https://example.com/icons/zoom.png",
     "title": "Zoom: Video Meetings",
+    "appName": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 8,
     "description": "Zoom brings people together through HD video meetings, webinars, and chat. It supports screen sharing, virtual backgrounds, and breakout rooms for collaboration at any scale. From remote work to online classes, Zoom offers reliable performance, advanced security, and intuitive controls. Whether it’s a one-on-one chat or a company-wide conference, Zoom keeps communication clear, simple, and human.",
@@ -146,6 +154,7 @@
   {
     "image": "https://example.com/icons/telegram.png",
     "title": "Telegram: Secure Messaging",
+    "appName": "Telegram",
     "companyName": "Telegram Messenger LLP",
     "id": 9,
     "description": "Telegram focuses on speed, simplicity, and security. Messages sync instantly across devices and are protected by strong encryption. You can send files up to 2GB, join channels with millions of members, and automate tasks using bots. With customizable themes, secret chats, and cloud storage, Telegram offers a seamless blend of privacy and performance for individuals and communities alike.",
@@ -164,6 +173,7 @@
   {
     "image": "https://example.com/icons/facebook.png",
     "title": "Facebook: Social Networking",
+    "appName": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 10,
     "description": "Facebook connects billions of people around the world. Share your thoughts, photos, and memories, join communities, follow pages, and explore events happening near you. The app combines social interaction with entertainment, bringing groups, stories, and video content into one space. Whether you’re building a business page or catching up with old friends, Facebook keeps your digital world active and connected.",
@@ -182,6 +192,7 @@
   {
     "image": "https://example.com/icons/instagram.png",
     "title": "Instagram: Capture & Share Moments",
+    "appName": "Instagram",
     "companyName": "Meta Platforms, Inc.",
     "id": 11,
     "description": "Instagram brings creativity and connection together in one place. Capture photos and videos, enhance them with filters, and share your story with the world. From Reels to Stories, Instagram helps creators, influencers, and businesses grow their audiences and build authentic engagement. Explore trending content, message friends, or shop from your favorite brands — everything is beautifully integrated to keep your world visually alive.",
@@ -200,6 +211,7 @@
   {
     "image": "https://example.com/icons/tiktok.png",
     "title": "TikTok: Short Video Platform",
+    "appName": "TikTok",
     "companyName": "ByteDance Ltd.",
     "id": 12,
     "description": "TikTok transforms creativity into a global conversation through short videos. Express yourself through music, trends, and visual storytelling with tools like filters, effects, and sounds. Whether you're a dancer, artist, or meme maker, TikTok’s algorithm curates content that keeps you inspired. The app connects millions of creators worldwide, fostering new forms of entertainment, humor, and self-expression every day.",
@@ -218,6 +230,7 @@
   {
     "image": "https://example.com/icons/snapchat.png",
     "title": "Snapchat: Share the Moment",
+    "appName": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 13,
     "description": "Snapchat redefines communication with disappearing messages, AR lenses, and instant photo sharing. It’s designed for quick, authentic connections — send a snap, create stories, or chat in real-time with friends. With features like Snap Map and Bitmoji, users can explore the world and express themselves creatively. It’s not just a camera app; it’s a vibrant social space built around fun and spontaneity.",
@@ -236,6 +249,7 @@
   {
     "image": "https://example.com/icons/linkedin.png",
     "title": "LinkedIn: Professional Network",
+    "appName": "LinkedIn",
     "companyName": "LinkedIn Corporation",
     "id": 14,
     "description": "LinkedIn helps professionals build meaningful connections, find jobs, and grow careers. It’s a space to share expertise, showcase achievements, and discover opportunities. With tailored recommendations, skill-based learning, and company insights, LinkedIn transforms networking into growth. From startups to global enterprises, it’s where people connect to shape their professional journeys.",
@@ -254,6 +268,7 @@
   {
     "image": "https://example.com/icons/spotify.png",
     "title": "Spotify: Music and Podcasts",
+    "appName": "Spotify",
     "companyName": "Spotify AB",
     "id": 15,
     "description": "Spotify lets you listen to millions of songs, albums, and podcasts on demand. Create playlists, follow artists, and explore personalized mixes built around your mood. With offline downloads, smart recommendations, and collaborative playlists, Spotify makes discovering new music effortless. It’s your personal soundtrack — anytime, anywhere.",
@@ -272,6 +287,7 @@
   {
     "image": "https://example.com/icons/netflix.png",
     "title": "Netflix: Stream TV & Movies",
+    "appName": "Netflix",
     "companyName": "Netflix, Inc.",
     "id": 16,
     "description": "Netflix brings the world’s best entertainment right to your screen. Stream exclusive TV shows, movies, and documentaries from any device. With personalized recommendations, multiple profiles, and offline viewing, Netflix adapts to your tastes. From Hollywood blockbusters to original content, it’s your one-stop destination for unlimited storytelling.",
@@ -290,6 +306,7 @@
   {
     "image": "https://example.com/icons/twitter.png",
     "title": "Twitter: Real-Time News & Trends",
+    "appName": "Twitter",
     "companyName": "X Corp.",
     "id": 17,
     "description": "Twitter keeps you informed with live updates, breaking news, and trending conversations. Follow people, join communities, and share thoughts instantly. Whether you’re keeping up with global events or exploring memes, Twitter bridges real-time ideas with real-world impact. It’s the pulse of what’s happening everywhere.",
@@ -308,6 +325,7 @@
   {
     "image": "https://example.com/icons/pinterest.png",
     "title": "Pinterest: Discover Ideas",
+    "appName": "Pinterest",
     "companyName": "Pinterest, Inc.",
     "id": 18,
     "description": "Pinterest is your visual discovery engine for inspiration. Explore creative ideas for recipes, fashion, home decor, travel, and more. Save your favorite pins, organize boards, and find new passions through personalized recommendations. It’s where imagination meets action — plan your next big idea, beautifully.",
@@ -326,6 +344,7 @@
   {
     "image": "https://example.com/icons/reddit.png",
     "title": "Reddit: Dive into Anything",
+    "appName": "Reddit",
     "companyName": "Reddit Inc.",
     "id": 19,
     "description": "Reddit is the home of communities and conversations. Join thousands of subreddits on topics you love — from gaming and memes to science and news. Share stories, post content, and engage in discussions with people around the world. Whether you're seeking answers, laughs, or debates, Reddit offers endless discovery in one scroll.",
@@ -344,6 +363,7 @@
   {
     "image": "https://example.com/icons/discord.png",
     "title": "Discord: Chat & Communities",
+    "appName": "Discord",
     "companyName": "Discord Inc.",
     "id": 20,
     "description": "Discord builds vibrant communities through voice, video, and text. Whether you’re gaming, studying, or working, Discord keeps your group connected with smooth communication tools. Create servers, join channels, and stream together — all with low latency. It’s a home for every community, powered by conversation and creativity.",

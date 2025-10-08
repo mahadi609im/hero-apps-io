@@ -1,3 +1,5 @@
+import { Bounce, toast } from 'react-toastify';
+
 const getInstalledData = () => {
   let installedData = localStorage.getItem('installed');
 
@@ -12,7 +14,17 @@ const setInstalledData = id => {
   let installedData = getInstalledData();
 
   if (installedData.includes(id)) {
-    alert('Installed');
+    toast.warn('Already install it', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'light',
+      transition: Bounce,
+    });
   } else {
     installedData.push(id);
     let installedDataStr = JSON.stringify(installedData);

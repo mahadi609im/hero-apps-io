@@ -3,7 +3,6 @@ import {
   getInstalledData,
   removeInstalledItem,
 } from '../../utility/InstalledStore';
-import { HiSortDescending } from 'react-icons/hi';
 import useDataLoadHook from '../../hooks/useDataLoadHook';
 import InstallList from './InstallList';
 import {
@@ -11,6 +10,7 @@ import {
   TbSortDescendingNumbers,
 } from 'react-icons/tb';
 import { MdDownload } from 'react-icons/md';
+import { Bounce, toast } from 'react-toastify';
 
 const UninstallContext = createContext('');
 
@@ -61,6 +61,21 @@ const Installation = () => {
     removeInstalledItem(id);
     const newInstallItem = installed.filter(app => app.id !== id);
     setInstalled(newInstallItem);
+    const unInstallItem = installed.filter(app => app.id === id);
+    toast.success(
+      `${unInstallItem.map(el => el.appName)} Unstall Successfully`,
+      {
+        position: 'top-right',
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: 'light',
+        transition: Bounce,
+      }
+    );
   };
 
   return (

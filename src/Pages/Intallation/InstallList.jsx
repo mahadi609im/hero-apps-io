@@ -4,7 +4,7 @@ import iconRatings from '../../assets/icon-ratings.png';
 import { UninstallContext } from './Installation';
 
 const InstallList = ({ install }) => {
-  const { id, title, ratingAvg, downloads, size } = install;
+  const { id, title, appName, ratingAvg, downloads, size } = install;
   const handleUnInstall = useContext(UninstallContext);
 
   return (
