@@ -3,7 +3,7 @@ import useDataLoadHook from '../../hooks/useDataLoadHook';
 import AppCard from '../../Components/AppCard';
 
 const Apps = () => {
-  const { apps } = useDataLoadHook();
+  const { apps, loading } = useDataLoadHook();
 
   return (
     <div className="container mx-auto px-[3%] md:px-0 pt-[80px]">
@@ -15,11 +15,37 @@ const Apps = () => {
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
-        {apps.map(app => (
-          <AppCard key={app.id} app={app}></AppCard>
-        ))}
+      <div className="flex flex-col md:flex-row justify-between items-center mb-4 gap-4">
+        <h3 className="text-2xl font-semibold text-[#001931]">
+          ({apps.length}) Apps Found
+        </h3>
+        <label className="input">
+          <svg
+            className="h-[1em] opacity-50"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <g
+              strokeLinejoin="round"
+              strokeLinecap="round"
+              strokeWidth="2.5"
+              fill="none"
+              stroke="currentColor"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </g>
+          </svg>
+          <input type="search" required placeholder="Search" />
+        </label>
       </div>
+      {loading ? (
+        'loading .......................'
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+          {apps && apps.map(app => <AppCard key={app.id} app={app}></AppCard>)}
+        </div>
+      )}
     </div>
   );
 };

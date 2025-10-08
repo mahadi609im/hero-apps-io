@@ -5,7 +5,6 @@ import iconRatings from '../assets/icon-ratings.png';
 
 const AppCard = ({ app }) => {
   const { title, ratingAvg, downloads } = app;
-  console.log(app);
   return (
     <div className="w-full p-4 rounded-sm bg-white space-y-4 shadow-lg">
       <div className="w-full h-[316px] bg-[#D9D9D9] rounded-lg"></div>
