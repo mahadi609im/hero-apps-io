@@ -6,7 +6,7 @@ const RootLayout = () => {
   return (
     <div className="flex flex-col min-h-screen h-auto">
       <Navbar></Navbar>
-      <div className="flex-1 mb-[80px] bg-[#f5f5f5]">
+      <div className="flex-1 pb-[80px] bg-[#f5f5f5]">
         <Outlet></Outlet>
       </div>
       <div>Footer</div>
