@@ -1,7 +1,19 @@
-import { useState } from 'react';
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 
 const useDataLoadHook = () => {
   const [apps, setApps] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [errr, setError] = useState(null);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    axios('/appsData.json')
+      .then(data => setApps(data.data))
+      .catch(err => setError(err))
+      .finally(setLoading(false));
+  }, []);
+
+  return { apps, loading, error };
 };
+
+export default useDataLoadHook;

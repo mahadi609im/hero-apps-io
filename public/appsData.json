@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://example.com/icons/whatsapp.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1,
+    "description": "WhatsApp Messenger is a cross‑platform messaging app offering text, voice, and video calls, media sharing, and end‑to‑end encryption to keep your conversations secure.",
+    "size": 38,
+    "reviews": 95,
+    "ratingAvg": 4,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 78000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/instagram.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "Instagram is a photo and video sharing social platform where users post images and short videos, follow friends and celebrities, and discover creative content via hashtags and Explore tab.",
+    "size": 52,
+    "reviews": 87,
+    "ratingAvg": 4.5,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 4500 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 63000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 3,
+    "description": "TikTok is a short-video platform letting users create, share, and discover musical and creative video content, often with effects, duets, and trending audio snippets.",
+    "size": 70,
+    "reviews": 82,
+    "ratingAvg": 4,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 22000 },
+      { "name": "4 star", "count": 31000 },
+      { "name": "5 star", "count": 61800 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 4,
+    "description": "Spotify is a music streaming service offering millions of tracks, podcasts, and playlists. You can discover songs by mood, genre, and curated playlists, and share with friends.",
+    "size": 65,
+    "reviews": 50,
+    "ratingAvg": 4,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 34000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/youtube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "YouTube is the world’s largest video sharing platform where users upload, view, rate, share, and comment on videos across a massive library of diverse content.",
+    "size": 90,
+    "reviews": 120,
+    "ratingAvg": 4.6,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 85000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 6,
+    "description": "Snapchat is a multimedia messaging app where users send disappearing photos and videos (“Snaps”), chat with friends, apply lenses, filters, and share stories.",
+    "size": 60,
+    "reviews": 44,
+    "ratingAvg": 4.1,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 30000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/slack.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 7,
+    "description": "Slack is a collaboration hub for teams: messaging, file sharing, channels, and integrations with tools like Google Drive, Zoom, and more to streamline communication.",
+    "size": 75,
+    "reviews": 33,
+    "ratingAvg": 4,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 22000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/zoom.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 8,
+    "description": "Zoom provides video conferencing, online meetings, chat, and webinars with high quality video and audio. It supports screen sharing, virtual backgrounds, and breakout rooms.",
+    "size": 80,
+    "reviews": 28,
+    "ratingAvg": 4,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 2200 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 18000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram Messenger LLP",
+    "id": 9,
+    "description": "Telegram is a messaging app with a focus on speed and security. It offers cloud-based messages, large group chats, and bots for automation.",
+    "size": 55,
+    "reviews": 40,
+    "ratingAvg": 4.5,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 23000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/facebook.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 10,
+    "description": "Facebook is a social networking platform to connect with friends and family, share posts, images, and videos, and join communities based on interests.",
+    "size": 85,
+    "reviews": 95,
+    "ratingAvg": 4,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/googlemaps.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 11,
+    "description": "Google Maps offers satellite imagery, street maps, 360° panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bike or public transportation.",
+    "size": 60,
+    "reviews": 70,
+    "ratingAvg": 5,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 60000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/uber.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 12,
+    "description": "Uber is a ride-hailing app connecting passengers with drivers for a variety of transportation options including car rides, bikes, and food delivery.",
+    "size": 50,
+    "reviews": 65,
+    "ratingAvg": 5,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 13,
+    "description": "Netflix is a streaming service offering movies, TV shows, documentaries, and original content across various genres and languages.",
+    "size": 70,
+    "reviews": 80,
+    "ratingAvg": 4,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/amazon.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon.com, Inc.",
+    "id": 14,
+    "description": "Amazon Shopping app lets you browse, search, and buy millions of products from the world’s largest online retailer, including tracking your orders and accessing deals.",
+    "size": 65,
+    "reviews": 55,
+    "ratingAvg": 4.5,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/airbnb.png",
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "id": 15,
+    "description": "Airbnb lets users discover, book, and rent accommodations worldwide, offering unique homes and experiences for travelers seeking personalized stays.",
+    "size": 55,
+    "reviews": 48,
+    "ratingAvg": 4,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 28000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/linkedin.png",
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corp.",
+    "id": 16,
+    "description": "LinkedIn is a professional networking platform where users can connect with colleagues, search jobs, share posts, and showcase their professional achievements.",
+    "size": 60,
+    "reviews": 42,
+    "ratingAvg": 4.5,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 26000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/paypal.png",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings, Inc.",
+    "id": 17,
+    "description": "PayPal is a secure online payment system that allows you to send and receive money, pay for purchases, and manage your account from mobile and web platforms.",
+    "size": 50,
+    "reviews": 40,
+    "ratingAvg": 4.6,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 22000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/twitter.png",
+    "title": "Twitter",
+    "companyName": "X Corp.",
+    "id": 18,
+    "description": "Twitter (now X) is a social media platform for sharing short posts called Tweets, following people, and engaging in trending news and discussions worldwide.",
+    "size": 65,
+    "reviews": 75,
+    "ratingAvg": 5,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/reddit.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 19,
+    "description": "Reddit is a network of communities where people can dive into their interests, hobbies, and passions by posting content, commenting, and voting on discussions.",
+    "size": 60,
+    "reviews": 68,
+    "ratingAvg": 3,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 30000 }
+    ]
+  },
+  {
+    "image": "https://example.com/icons/discord.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 20,
+    "description": "Discord is a communication platform designed for creating communities, offering voice, video, and text chat for gamers, hobbyists, and professional groups.",
+    "size": 70,
+    "reviews": 55,
+    "ratingAvg": 4.5,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  }
+]

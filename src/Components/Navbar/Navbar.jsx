@@ -90,7 +90,7 @@ const Navbar = () => {
           <a
             target="_blank"
             href="https://github.com/mahadi609im"
-            className="py-[11.5px] px-[15.5px] rounded-md md:rounded-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] p-6 shadow-lg text-white text-base font-semibold cursor-pointer flex items-center gap-[10px]"
+            className="py-[11.5px] px-[15.5px] rounded-md md:rounded-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] p-6 shadow-lg text-white text-base font-semibold cursor-pointer flex items-center gap-[10px] hover:scale-105 transition-all ease-in-out"
           >
             <FaGithub className="text-xl" />
             Contribute

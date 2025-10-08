@@ -6,7 +6,7 @@ import hero from '../../assets/hero.png';
 const Banner = () => {
   return (
     <div className="mb-[80px]">
-      <div className="mt-12 md:mt-14 lg:mt-20 container mx-auto px-[3%] md:px-0">
+      <div className="pt-12 md:pt-14 lg:pt-20 container mx-auto px-[3%] md:px-0">
         <div className="flex items-center flex-col justify-center">
           <h1 className="lg:max-w-[597px] w-full mx-auto text-5xl md:text-[56px] lg:text-[72px] text-center font-bold">
             We Build{' '}
@@ -24,7 +24,7 @@ const Banner = () => {
             <a
               href="https://play.google.com/store/games?hl=en"
               target="_blank"
-              className="py-3 px-[22.5px] rounded-sm border border-[#D2D2D2] font-semibold text-base md:text-lg lg:text-xl text-[#001931] flex gap-[10px]"
+              className="py-3 px-[22.5px] rounded-sm border border-[#D2D2D2] font-semibold text-base md:text-lg lg:text-xl text-[#001931] flex gap-[10px] hover:bg-white hover:scale-105 transition-all ease-in-out"
             >
               <img className="w-6 h-6 md:w-8 md:h-8" src={playStore} alt="" />
               <span>Play Store</span>
@@ -32,7 +32,7 @@ const Banner = () => {
             <a
               href="https://www.apple.com/app-store/"
               target="_blank"
-              className="py-3 px-[22.5px] rounded-sm border border-[#D2D2D2] font-semibold text-base md:text-lg lg:text-xl text-[#001931] flex gap-[10px]"
+              className="py-3 px-[22.5px] rounded-sm border border-[#D2D2D2] font-semibold text-base md:text-lg lg:text-xl text-[#001931] flex gap-[10px] hover:bg-white hover:scale-105 transition-all ease-in-out"
             >
               <img className="w-8 h-8" src={appStore} alt="" />
               <span>App Store</span>
