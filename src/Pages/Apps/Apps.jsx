@@ -6,12 +6,10 @@ const Apps = () => {
   const { apps, loading } = useDataLoadHook();
   const [searchValue, setSearchValue] = useState('');
 
-  const searchCleanUp = searchValue.trim().toLowerCase();
+  const searchModify = searchValue.trim().toLowerCase();
 
-  const searchItem = searchCleanUp
-    ? apps.filter(appItem =>
-        appItem.title.toLowerCase().includes(searchCleanUp)
-      )
+  const searchItem = searchModify
+    ? apps.filter(appItem => appItem.title.toLowerCase().includes(searchModify))
     : apps;
 
   return (
