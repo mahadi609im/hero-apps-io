@@ -11,7 +11,7 @@ const AppCard = ({ app }) => {
   return (
     <div
       onClick={() => navigate(`/appsDetails/${id}`)}
-      className="w-full p-4 rounded-sm bg-white space-y-4 cursor-pointer ease-in-out hover:shadow-xl  shadow-md transform hover:scale-105 transition-all duration-300"
+      className="w-full p-4 rounded-sm bg-white space-y-4 cursor-pointer ease-in-out hover:shadow-xl  shadow-md transform hover:scale-105 transition-all duration-300 hover:skeleton"
     >
       <div className=" w-full h-[316px] bg-[#D9D9D9] rounded-lg flex justify-center items-center">
         <img

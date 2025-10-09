@@ -8,7 +8,7 @@ import { MdInstallMobile, MdOutlineInstallDesktop } from 'react-icons/md';
 
 const Navbar = () => {
   return (
-    <nav className=" w-full f py-4 shadow">
+    <nav className=" w-full f py-4 shadow-xl">
       <div className="navbar flex justify-between items-center container mx-auto px-[3%] md:px-0">
         <div className="flex items-center">
           <div className="dropdown">

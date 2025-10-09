@@ -17,10 +17,8 @@ const AppsDetails = () => {
   const { apps, loading } = useDataLoadHook();
 
   const { detailsId } = useParams();
-  const paramsId = parseInt(detailsId);
 
-  const appsDetailsData = apps.find(app => app.id === paramsId);
-  console.log(appsDetailsData);
+  const appsDetailsData = apps.find(app => String(app.id) === detailsId);
 
   const {
     id,
@@ -65,7 +63,9 @@ const AppsDetails = () => {
   return (
     <>
       {loading === true ? (
-        <LoadingDesign></LoadingDesign>
+        <div className="flex justify-center items-center min-h-[50vh] h-full">
+          <LoadingDesign></LoadingDesign>
+        </div>
       ) : (
         <div>
           {!appsDetailsData ? (
@@ -140,7 +140,7 @@ const AppsDetails = () => {
                     className={`px-5 py-[12px] rounded-sm mt-[30px] text-white font-medium transition-all  ${
                       isInstalled
                         ? 'bg-green-300 cursor-not-allowed'
-                        : 'bg-[#00D390] hover:bg-[#00b377] cursor-pointer shadow-xl'
+                        : 'bg-[#00D390] hover:bg-[#00b377] cursor-pointer shadow-xl skeleton'
                     }`}
                   >
                     {isInstalled ? 'Installed' : `Install Now (${size} MB)`}

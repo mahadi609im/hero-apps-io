@@ -16,6 +16,8 @@ nav a.active {
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, #632ee3, #9f62f2) 1;
 }
 
 nav a.active .nav-icon {

@@ -4,12 +4,22 @@ import AppCard from '../../Components/AppCard';
 import EmptyState from '../../Components/EmptyState';
 import LoadingUi from '../../Components/Loading/LoadingUi';
 import { TbAppsFilled } from 'react-icons/tb';
+import LoadingDesign from '../../Components/Loading/LoadingDesign';
 
 const Apps = () => {
   const { apps, loading } = useDataLoadHook();
   const [searchValue, setSearchValue] = useState('');
+  const [searching, setSearching] = useState(false);
 
   const searchModify = searchValue.trim().toLowerCase();
+
+  const handleSearch = data => {
+    setSearching(true);
+    setSearchValue(data);
+    setTimeout(() => {
+      setSearching(false);
+    }, 2000);
+  };
 
   const searchItem = searchModify
     ? apps.filter(appItem => appItem.title.toLowerCase().includes(searchModify))
@@ -48,7 +58,7 @@ const Apps = () => {
             </g>
           </svg>
           <input
-            onChange={e => setSearchValue(e.target.value)}
+            onChange={e => handleSearch(e.target.value)}
             defaultValue={searchValue}
             type="search"
             required
@@ -56,8 +66,8 @@ const Apps = () => {
           />
         </label>
       </div>
-      {loading === true ? (
-        <LoadingUi count={20}></LoadingUi>
+      {loading === true || searching === true ? (
+        <LoadingUi count={searchItem.length}></LoadingUi>
       ) : (
         <div>
           {searchItem.length > 0 ? (

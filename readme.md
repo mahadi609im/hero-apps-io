@@ -10,10 +10,10 @@
 
 # 🐣 Basic Requirements
 
-- Make the Application Responsive for All the Devices
+- Make the Application Responsive for All the Devices - **---Done---**
 - Do minimum 5 commits to your github Repository - **---Done---**
 - Give a meaning full name to your application - **---Done---**
-- Make Sure on Production Application is error Free
+- Make Sure on Production Application is error Free - **---Done---**
 - Add a Readme.md with App Name , Description & Technologies
 
 ---
@@ -33,12 +33,12 @@
 
 #### Footer
 
-- Design a custom footer using your own creativity and style.
+- Design a custom footer using your own creativity and style. - **---Done---**
 
 #### Data
 
 - Create an JSON Array of minimum 12-20 objects for app data using the following
-  structure: - **---Image---**
+  structure: - **---Done---**
   ```js
   {
     image: string;
@@ -106,13 +106,14 @@
 
 #### App Section
 
-- Display all apps from the JSON data.
+- Display all apps from the JSON data. - **---Done---**
 - Each app card should include:
   - App title
   - Image
   - Download count
   - Average rating
-- Clicking on an app card should navigate to the App Details page.
+- Clicking on an app card should navigate to the App Details page. -
+  **---Done---**
 
 ---
 
@@ -120,35 +121,39 @@
 
 #### App Information
 
-- Show app image on the left.
-- Display app details such as title, rating, downloads, reviews.
-- Include an `Install button`:
+- Show app image on the left .- **---Done---**
+- Display app details such as title, rating, downloads, reviews. -
+  **---Done---**
+- Include an `Install button`: - **---Done---**
   - When clicked, it becomes disabled and the text changes to `Installed`.
   - Show a Success Toast after App installed
 
 #### App Review Chart
 
-- Implement a responsive chart using the **Recharts** library.
-- Visualize the app’s review data as shown in the Figma design.
+- Implement a responsive chart using the **Recharts** library. - **---Done---**
+- Visualize the app’s review data as shown in the Figma design. - **---Done---**
 
 #### App Description
 
-- Show the app details in description section as per Figma layout.
+- Show the app details in description section as per Figma layout. -
+  **---Done---**
 
 ---
 
 ## 5. Error Page & Others
 
-- Create a custom error page for invalid routes.
+- Create a custom error page for invalid routes. - **---Done---**
 
 - Show a loading animation during: `Challenge Part`
 
   - Page navigation.
-  - Search operation.
+  - Search operation. - **------------------Not Done--------------**
 
-- Show a Relevant Not Found message app not found in app details section.
+- Show a Relevant Not Found message app not found in app details section. -
+  **---Done---**
 
-- Ensure that reloading any route after deployment does not cause an error.
+- Ensure that reloading any route after deployment does not cause an error. -
+  **---Done---**
 
 ---
 
@@ -159,35 +164,38 @@
 #### App Installation
 
 - When the “Install” button is clicked:
-  - Save the app to localStorage.
+  - Save the app to localStorage. - **---Done---**
   - If the app is already installed, show a disabled button with the text
-    `Installed`.
+    `Installed`. - **---Done---**
 
 #### My Installation Page
 
-- Create a page named “My Installation” following the Figma design.
-- Display all installed apps as cards.
+- Create a page named “My Installation” following the Figma design. -
+  **---Done---**
+- Display all installed apps as cards. - **---Done---**
 - Include an Uninstall button:
   - Clicking it
-    - removes the app from both the UI and localStorage.
-    - Show an Toast with some relevant message
+    - removes the app from both the UI and localStorage. - **---Done---**
+    - Show an Toast with some relevant message - **---Done---**
 
 ---
 
 ### Sort by Downloads
 
-- Implement a dropdown for sorting apps by download count.
+- Implement a dropdown for sorting apps by download count. - **---Done---**
 - The dropdown must include:
-  - **High-Low:** Sort apps in ascending order by downloads.
-  - **Low-High:** Sort apps in descending order by downloads.
+  - **High-Low:** Sort apps in ascending order by downloads. - **---Done---**
+  - **Low-High:** Sort apps in descending order by downloads. - **---Done---**
 
 ---
 
 ### Loading Animation
 
 - Show a loading animation during:
-  - Page navigation.
-  - Search operation
+
+  - Page navigation. - **---Done---**
+
+  - Search operation - **---Not Done---**
 
 ---
 
