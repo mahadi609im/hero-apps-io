@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import useDataLoadHook from '../../hooks/useDataLoadHook';
 import AppCard from '../../Components/AppCard';
 import EmptyState from '../../Components/EmptyState';
+import LoadingUi from '../../Components/Loading/LoadingUi';
 
 const Apps = () => {
   const { apps, loading } = useDataLoadHook();
@@ -53,8 +54,8 @@ const Apps = () => {
           />
         </label>
       </div>
-      {loading ? (
-        'loading .......................'
+      {loading === true ? (
+        <LoadingUi count={20}></LoadingUi>
       ) : (
         <div>
           {searchItem.length > 0 ? (
@@ -64,7 +65,7 @@ const Apps = () => {
               ))}
             </div>
           ) : (
-            <EmptyState></EmptyState>
+            searchModify && <EmptyState></EmptyState>
           )}
         </div>
       )}

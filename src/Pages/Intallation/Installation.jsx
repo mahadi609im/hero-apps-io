@@ -11,6 +11,7 @@ import {
 } from 'react-icons/tb';
 import { MdDownload } from 'react-icons/md';
 import { Bounce, toast } from 'react-toastify';
+import LoadingDesign from '../../Components/Loading/LoadingDesign';
 
 const UninstallContext = createContext('');
 
@@ -95,7 +96,7 @@ const Installation = () => {
         <div className="relative inline-block">
           {/* Gradient Button */}
           <button
-            disabled={installed.length === 0 && true}
+            disabled={installed.length < 2 && true}
             onClick={() => {
               setOpen(!open);
             }}
@@ -167,11 +168,28 @@ const Installation = () => {
       </div>
 
       <div>
-        {installed.map(install => (
-          <UninstallContext.Provider key={install.id} value={handleUninstal}>
-            <InstallList key={install.id} install={install}></InstallList>
-          </UninstallContext.Provider>
-        ))}
+        {loading === true ? (
+          <LoadingDesign></LoadingDesign>
+        ) : (
+          <div>
+            {installed.length > 0 ? (
+              installed.map(install => (
+                <UninstallContext.Provider
+                  key={install.id}
+                  value={handleUninstal}
+                >
+                  <InstallList key={install.id} install={install}></InstallList>
+                </UninstallContext.Provider>
+              ))
+            ) : (
+              <div className="flex flex-col items-center justify-center p-8 rounded-xl mt-10 sm:mx-auto w-full ontainer mx-auto px-[3%] md:px-0">
+                <h2 className="text-[48px] text-base md:text-lg lg:text-xl text-[#627382] text-center flex items-center">
+                  No apps installed
+                </h2>
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );
