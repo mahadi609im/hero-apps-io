@@ -18,7 +18,7 @@ const Apps = () => {
     setSearchValue(data);
     setTimeout(() => {
       setSearching(false);
-    }, 2000);
+    }, 1000);
   };
 
   const searchItem = searchModify
@@ -59,14 +59,16 @@ const Apps = () => {
           </svg>
           <input
             onChange={e => handleSearch(e.target.value)}
-            defaultValue={searchValue}
+            value={searchValue}
             type="search"
             required
             placeholder="Search"
           />
         </label>
       </div>
-      {loading === true || searching === true ? (
+      {loading === true ? (
+        <LoadingUi count={20}></LoadingUi>
+      ) : searching === true ? (
         <LoadingUi count={searchItem.length}></LoadingUi>
       ) : (
         <div>
