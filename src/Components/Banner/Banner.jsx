@@ -59,24 +59,24 @@ const Banner = () => {
           </div>
           <div className="max-w-[342px] w-full text-center space-y-4">
             <span className="text-base font-normal text-white">
-              Total Downloads
+              Total Reviews
             </span>
             <h3 className="text-[48px] md:text-[56px] lg:text-[64px] font-extrabold text-white">
-              29.6M
+              906K
             </h3>
             <p className="text-base font-normal text-white">
-              21% more than last month
+              46% more than last month
             </p>
           </div>
           <div className="max-w-[342px] w-full text-center space-y-4">
             <span className="text-base font-normal text-white">
-              Total Downloads
+              Active Apps
             </span>
             <h3 className="text-[48px] md:text-[56px] lg:text-[64px] font-extrabold text-white">
-              29.6M
+              20+
             </h3>
             <p className="text-base font-normal text-white">
-              21% more than last month
+              31 more will Launch
             </p>
           </div>
         </div>

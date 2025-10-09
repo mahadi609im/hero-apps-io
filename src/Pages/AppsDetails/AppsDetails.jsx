@@ -151,7 +151,7 @@ const AppsDetails = () => {
               <div className="h-[354px]  mb-[40px]">
                 <BarChartsRating data={ratings}></BarChartsRating>
               </div>
-              <div>
+              <div className="mt-8">
                 <h4 className="text-2xl font-semibold text-[#00D390 mb-6">
                   Description
                 </h4>
