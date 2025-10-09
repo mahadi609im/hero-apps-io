@@ -3,6 +3,7 @@ import useDataLoadHook from '../../hooks/useDataLoadHook';
 import AppCard from '../AppCard';
 import { useNavigate } from 'react-router';
 import LoadingUi from '../Loading/LoadingUi';
+import { IoMdTrendingUp } from 'react-icons/io';
 
 const TrendingApps = () => {
   const { apps, loading } = useDataLoadHook();
@@ -12,8 +13,9 @@ const TrendingApps = () => {
   return (
     <div className="container mx-auto px-[3%] md:px-0">
       <div className="space-y-4 text-center mb-[40px]">
-        <h2 className="text-[26px] md:text-[32px] lg:text-[48px] font-bold text-[#001931] text-center">
-          Trending Apps
+        <h2 className="text-[26px] md:text-[32px] lg:text-[48px] font-bold text-[#001931] text-center flex gap-3 items-center justify-center">
+          <span>Trending Apps</span>{' '}
+          <IoMdTrendingUp className="text-[#632EE3]" />
         </h2>
         <p className="font-normal text-base md:text-lg lg:text-xl text-[#627382] text-center">
           Explore All Trending Apps on the Market developed by us
@@ -22,7 +24,7 @@ const TrendingApps = () => {
       {loading === true ? (
         <LoadingUi></LoadingUi>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 w-full">
           {appsSlice &&
             appsSlice.map(app => <AppCard key={app.id} app={app}></AppCard>)}
         </div>

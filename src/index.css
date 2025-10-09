@@ -17,3 +17,8 @@ nav a.active {
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
+
+nav a.active .nav-icon {
+  color: #632ee3;
+  font-weight: 700;
+}

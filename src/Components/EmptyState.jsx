@@ -1,12 +1,12 @@
 import React from 'react';
-import noResult from '../assets/noResult.png';
+import AppNot from '../assets/AppNot.png';
 
 const EmptyState = () => {
   return (
     <div className="flex flex-col items-center justify-center p-8 bg-gray-50 border-2 border-dashed border-gray-300 rounded-xl mt-10 sm:mx-auto w-full ontainer mx-auto px-[3%] md:px-0">
       <div className="w-36 sm:w-48 h-auto mb-4">
         <img
-          src={noResult}
+          src={AppNot}
           alt="No Results"
           className="w-full h-auto object-contain"
         />

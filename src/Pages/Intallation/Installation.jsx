@@ -6,10 +6,11 @@ import {
 import useDataLoadHook from '../../hooks/useDataLoadHook';
 import InstallList from './InstallList';
 import {
+  TbAppsFilled,
   TbSortAscendingNumbers,
   TbSortDescendingNumbers,
 } from 'react-icons/tb';
-import { MdDownload } from 'react-icons/md';
+import { MdDownload, MdOutlineInstallDesktop } from 'react-icons/md';
 import { Bounce, toast } from 'react-toastify';
 import LoadingDesign from '../../Components/Loading/LoadingDesign';
 
@@ -82,8 +83,9 @@ const Installation = () => {
   return (
     <div className="container mx-auto px-[3%] md:px-0 pt-[80px]">
       <div className="space-y-4 text-center mb-[40px]">
-        <h2 className="text-[26px] md:text-[32px] lg:text-[48px] font-bold text-[#001931] text-center">
-          Your Installed Apps
+        <h2 className="text-[26px] md:text-[32px] lg:text-[48px] font-bold text-[#001931] text-center flex justify-center items-center gap-3">
+          <span>Your Installed Apps</span>{' '}
+          <MdOutlineInstallDesktop className="text-[#632EE3]" />
         </h2>
         <p className="font-normal text-base md:text-lg lg:text-xl text-[#627382] text-center">
           Explore All Trending Apps on the Market developed by us

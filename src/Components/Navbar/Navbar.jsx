@@ -2,6 +2,9 @@ import React from 'react';
 import { Link, NavLink } from 'react-router';
 import logo from '../../assets/logo.png';
 import { FaGithub } from 'react-icons/fa';
+import { IoHomeOutline } from 'react-icons/io5';
+import { TbApps } from 'react-icons/tb';
+import { MdInstallMobile, MdOutlineInstallDesktop } from 'react-icons/md';
 
 const Navbar = () => {
   return (
@@ -35,24 +38,30 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <NavLink to="/" className="text-black font-medium text-base">
-                  Home
+                <NavLink
+                  to="/"
+                  className="text-black font-medium text-base flex items-center gap-1"
+                >
+                  <IoHomeOutline className="text-lg nav-icon" />
+                  <span>Home</span>
                 </NavLink>
               </li>
               <li>
                 <NavLink
                   to="/apps"
-                  className="text-black font-medium text-base"
+                  className="text-black font-medium text-base flex items-center gap-1"
                 >
-                  Apps
+                  <TbApps className="text-lg nav-icon" />
+                  <span>Apps</span>
                 </NavLink>
               </li>
               <li>
                 <NavLink
                   to="/installation"
-                  className="text-black font-medium text-base"
+                  className="text-black font-medium text-base flex items-center gap-1"
                 >
-                  Installation
+                  <MdInstallMobile className="text-lg nav-icon" />
+                  <span>Installation</span>
                 </NavLink>
               </li>
             </ul>
@@ -67,21 +76,30 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <NavLink to="/" className="text-black font-medium text-base">
-                Home
+              <NavLink
+                to="/"
+                className="text-black font-medium text-base flex items-center gap-1"
+              >
+                <IoHomeOutline className="text-lg nav-icon" />
+                <span>Home</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to="/apps" className="text-black font-medium text-base">
-                Apps
+              <NavLink
+                to="/apps"
+                className="text-black font-medium text-base flex items-center gap-1"
+              >
+                <TbApps className="text-lg nav-icon" />
+                <span>Apps</span>
               </NavLink>
             </li>
             <li>
               <NavLink
                 to="/installation"
-                className="text-black font-medium text-base"
+                className="text-black font-medium text-base flex items-center gap-1"
               >
-                Installation
+                <MdOutlineInstallDesktop className="text-lg nav-icon" />
+                <span>Installation</span>
               </NavLink>
             </li>
           </ul>

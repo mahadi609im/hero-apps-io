@@ -6,16 +6,15 @@ import Footer from '../Components/Footer/Footer';
 import LoadingDesign from '../Components/Loading/LoadingDesign';
 
 const RootLayout = () => {
-  const navigation = useNavigation();
-  console.log(navigation.state === 'loading');
+  const navigation = useNavigation(null);
 
   return (
     <div className="flex flex-col min-h-screen h-auto">
       <Navbar></Navbar>
       {navigation.state === 'loading' ? (
-        'Loading ..........................'
+        <LoadingDesign></LoadingDesign>
       ) : (
-        <div className="flex-1 pb-[80px] bg-[#f5f5f5]">
+        <div className="flex-1 pb-[56px] md:pb-[72px] lg:pb-[80px] bg-[#f5f5f5]">
           <Outlet></Outlet>
         </div>
       )}
