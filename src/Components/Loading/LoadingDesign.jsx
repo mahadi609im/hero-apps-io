@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png';
 
 const LoadingDesign = () => {
   return (
-    <div className="flex flex-col items-center justify-center p-8 rounded-xl mt-10 sm:mx-auto w-full ontainer mx-auto px-[3%] md:px-0">
+    <div className="flex flex-col items-center justify-center rounded-xl mt-10 w-full container mx-auto px-[3%] md:px-0  p-8">
       <h2 className="text-[48px] font-semibold text-gray-700 text-center flex items-center">
         L
         <img

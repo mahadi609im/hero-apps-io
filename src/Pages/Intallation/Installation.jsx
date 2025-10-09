@@ -182,8 +182,8 @@ const Installation = () => {
                 </UninstallContext.Provider>
               ))
             ) : (
-              <div className="flex flex-col items-center justify-center p-8 rounded-xl mt-10 sm:mx-auto w-full ontainer mx-auto px-[3%] md:px-0">
-                <h2 className="text-[48px] text-base md:text-lg lg:text-xl text-[#627382] text-center flex items-center">
+              <div className="flex flex-col items-center justify-center p-8 rounded-xl mt-10 w-full container mx-auto px-[3%] md:px-0">
+                <h2 className="text-base md:text-lg lg:text-xl text-[#627382] text-center">
                   No apps installed
                 </h2>
               </div>
