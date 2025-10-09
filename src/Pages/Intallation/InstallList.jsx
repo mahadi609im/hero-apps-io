@@ -36,7 +36,7 @@ const InstallList = ({ install }) => {
       </div>
       <button
         onClick={() => handleUnInstall(id)}
-        className="px-5 py-[12px] bg-[#00D390] text-white rounded-sm cursor-pointer shadow-md skeleton"
+        className="px-5 py-[12px] bg-[#00D390] text-white rounded-sm cursor-pointer shadow-md hover:scale-105 transition-all ease-in-out hover:shadow-md"
       >
         Uninstall
       </button>

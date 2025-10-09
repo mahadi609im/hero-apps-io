@@ -68,7 +68,7 @@ const Navbar = () => {
           </div>
           <Link to="/" className="flex gap-1 items-center">
             <img className="w-[40px] h-[40px]" src={logo} alt="" />
-            <p className="font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent text-base">
+            <p className="font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent text-base md:text-lg lg:text-xl">
               HERO.IO
             </p>
           </Link>

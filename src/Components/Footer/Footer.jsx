@@ -63,28 +63,36 @@ const Footer = () => {
 
         {/* Social / App store icons */}
         <div className="flex space-x-4">
-          <a href="#">
+          <a href="https://web.facebook.com/mahadi609im">
             <img
               src="https://img.icons8.com/color/480/facebook-new.png"
               alt="App Store"
               className="w-10 h-10"
             />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/mahadi609im/">
             <img
               src="https://img.icons8.com/color/480/linkedin.png"
               alt="Google Play"
               className="w-10 h-10"
             />
           </a>
-          <a href="#">
+          <a
+            href="https://t.me/+8801609216725"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="https://img.icons8.com/color/48/telegram-app--v1.png"
               alt="Telegram"
               className="w-10 h-10"
             />
           </a>
-          <a href="#">
+          <a
+            href="https://wa.me/8801609216725"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="https://img.icons8.com/color/48/whatsapp--v1.png"
               alt="WhatsApp"

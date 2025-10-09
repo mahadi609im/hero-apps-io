@@ -31,6 +31,10 @@ const Installation = () => {
   const [selected, setSelected] = useState('Sort by Download or Size');
   const [open, setOpen] = useState(false);
 
+  if (loading) {
+    return <LoadingDesign></LoadingDesign>;
+  }
+
   const options = [
     'Download: Low to High',
     'Download: High to Low',

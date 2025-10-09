@@ -27,7 +27,7 @@ const BarChartsRatings = ({ data }) => {
           <Legend />
           <Bar
             dataKey="count"
-            barSize={20}
+            barSize={30}
             fill="#FF8811"
             barCategoryGap="10%"
           />

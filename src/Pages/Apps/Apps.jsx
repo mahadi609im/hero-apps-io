@@ -11,6 +11,10 @@ const Apps = () => {
   const [searchValue, setSearchValue] = useState('');
   const [searching, setSearching] = useState(false);
 
+  if (loading) {
+    return <LoadingDesign></LoadingDesign>;
+  }
+
   const searchModify = searchValue.trim().toLowerCase();
 
   const handleSearch = data => {
